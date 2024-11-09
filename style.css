@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-size: 16px; */
+    font-family: sans-serif;
+    /* line-height: 1.8em; */
+}
+
+.first {
+    background-image: url(https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=826&t=st=1718076536~exp=1718077136~hmac=4460e2887e0e8f352ff09ba09683daebf7d33d33f6bd4667b73777e455115332);
+    /* Corrected path format */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+
+}
+
+h1 {
+    background-color: #666;
+    /* color: white; */
+    opacity: 1;
+    padding: 21px 11px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: large;
+    width: 95%;
+    height: 66px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.third {
+    background-image: url(https://img.freepik.com/free-photo/cascade-boat-clean-china-natural-rural_1417-1356.jpg?w=826&t=st=1718043578~exp=1718044178~hmac=d626204ea92c42557e3b3329cbec5182a43c10591ac0832d0565542e9b44c629);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.third h1 {
+    opacity: 0.6;
+    color: black;
+}
+
+.fourth p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 14px 16px;
+    height: 59px;
+}
+
+.fifth {
+    background-image: url(https://img.freepik.com/free-photo/morskie-oko-tatry_1204-510.jpg?w=826&t=st=1718045558~exp=1718046158~hmac=f28033d39aa9e98eee04701db943e2e30b3465ea4c1e8d027632cbece92a4afb);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fifth h1 {
+    background-color: #666;
+    /* color: white; */
+    opacity: 1;
+    padding: 21px 11px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.sixth {
+    padding: 9px;
+    background-attachment: fixed;
+}
+
+.sixth p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+}
+
+.seventh {
+    background-image: url(https://img.freepik.com/free-photo/closeup-exotic-forest-animal_60438-3549.jpg?w=900&t=st=1718075685~exp=1718076285~hmac=a724b2ed423f025ffe350abea0eeb78352d17739b63093489df78df2a4c65bb6);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
